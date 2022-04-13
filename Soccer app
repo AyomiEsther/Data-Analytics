@@ -1,0 +1,72 @@
+player_name = ("what is your name ")
+print("my name is {name} ")
+
+player_name = "Siseku Ben"
+print(player_name)
+
+another_string = "This is a string! I love it!"
+print(another_string)
+
+my_defender = "This is an amazing defender.\nIt's really \"nice!\""
+print(my_defender)
+
+my_match = """ This match goes on....
+and on....
+and on...."""
+print(my_match)
+
+first_string = "Hello,"
+Second_string = "World!"
+third_string = first_string + Second_string
+print(third_string) 
+
+player_age = 23
+player_intro = "My name is {name} and I'm {age} years old.".format (name ="Ben", age=player_age)
+print(player_intro)
+
+salutation = "Hello! "
+print(salutation*4)
+
+print(third_string)
+
+third_string = "Hello, World!"
+print(third_string[2])
+
+third_string = "Hello, World!"
+print(third_string [0:5])
+print (third_string[7:])
+print(third_string[2:4])
+print(third_string[0::])
+print(third_string[0::3])
+print(third_string[0::4])
+
+print(("-").join("TEST"))
+
+print(("This is a footballer").split(" "))
+
+print("i love soccer".upper())
+
+print("i love sOcceR".lower())
+
+print("soccer is amazing".replace("is", " == "))
+
+player_names = {"Siseku Ben", "Leonard Olusegun", "Richard Ige", "Baker Saliman","Khalid Suleiman", "Ibrahim Khalil", "Abdulsalam Salam", "Obadofin Femcy", "David Right", "Ekpo Emmanuel", "Mubarak King"}
+print(player_names)
+
+player_names.remove("Baker Saliman")
+print(player_names)
+
+player_names.add("Baker Saliman")
+print(player_names)
+
+ben_stat = {"Hair color" : "Black","Eye color" : "Brown", "Age" : 24}
+print(ben_stat)
+
+referee_name = {"Siseku Esther", "Melissa Dawu"}
+print(referee_name)
+
+my_file = open("my_file.text", "w")
+
+my_file.write("I'm writing to a file in python!!!")
+
+my_file.close()
